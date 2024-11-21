@@ -98,3 +98,7 @@ copyright = "© Adritian. Free Hugo theme by Adrián Moreno Peña."
 x = "img/general/design-and-code-radity.png"
 _2x = "img/general/design-and-code-radity@2x.png"
 alt = "Design & Code - Radity"
+
+
+[markup.goldmark.renderer]
+unsafe = true

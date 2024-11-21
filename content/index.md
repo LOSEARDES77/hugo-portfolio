@@ -2,6 +2,8 @@
 title = 'Pagina Principal'
 date = 2024-11-20T17:56:57+01:00
 draft = false
+img = ""
+imgAlt = ""
 +++
 
 ## Victor Galan Martinez
@@ -51,3 +53,23 @@ hay un modo multijugador aun en progreso la parte de backnd escrita en Rust.
 - GitHub: [LOSEARDES77](https://github.com/LOSEARDES77)
 
 ¡No dudes en explorar mis proyectos y ponerte en contacto conmigo! Estoy emocionado por la oportunidad de trabajar contigo en tu próximo proyecto.
+
+# BestJavaSwingGame
+
+## Description
+
+BestJavaSwingGame is a simple Java Swing game that allows the player to control a character and navigate through a maze. The objective of the game is to reach the end of the maze without colliding with any obstacles.
+
+## Features
+
+- Maze navigation: The player can move the character up, down, left, and right to navigate through the maze.
+- Obstacle avoidance: The character must avoid colliding with obstacles in the maze.
+- Score tracking: The player's score increases as they progress through the maze.
+
+# Files Stored
+
+Un clon de google drive.
+
+```maremind
+Aplication -> Base de datos
+```
