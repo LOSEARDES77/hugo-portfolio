@@ -1,0 +1,140 @@
+# page title
+head:
+  title: "Demo site for Adritian - a high performance hugo theme by Adrián Moreno"
+  description: "This hugo theme (Adritian) is based on Boostrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications."
+# showcase
+showcase:
+  enable: true
+  title: "Portfolio de Victor Galan"
+  subtitle: "Un desarollador web excelente"
+  description: >
+    Bienvenido a mi portfolio personal. Aquí encontrarás una muestra de mis proyectos, habilidades y experiencia.
+  image:
+    x: "images/showcase/showcase.png"
+    _2x: "images/showcase/showcase@2x.png"
+  imageMobile:
+    x: "images/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "mailto:victor7galan@gmail.com"
+
+  socialLinks:
+    - icon: "github"
+      URL: "https://github.com/LOSEARDES77"
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/victor-galan-martinez-34b009256/"
+
+# about
+about:
+  enable: true
+  title: "Quien soy"
+  content: >
+    <p class="lead">
+      Soy actualmente un estudiante de desarrollo web centrado en el desarrollo back-end
+      </p>
+      <p class="lead">
+      Soy un estudiante actualmente cursando desarrollo web con un gran interés en aprender todo tipo de tecnologías posibles para aplicarlas en proyectos reales. Mi enfoque principal se centra en el desarrollo back-end, pero también estoy interesado en el desarrollo front-end y la seguridad informática. Siempre estoy buscando oportunidades para mejorar mis habilidades y aprender de nuevas tecnologías. Además, soy un apasionado de la resolución de problemas y disfruto trabajando en equipos para lograr objetivos comunes. Estoy actualmente en busca de oportunidades laborales para aplicar mis conocimientos y continuar creciendo profesionalmente.
+      
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/victor-galan-martinez-34b009256/"
+  image:
+    x: "images/who-am-i/user-picture.png"
+    _2x: "images/who-am-i/user-picture@2x.png"
+
+# education
+education:
+  enable: true
+  title: "Educacion"
+  items:
+    - item: "CIP La Jota"
+      year: "2008-2016"
+      degree: "Educacion Primaria"
+    - item: "IES Pilar Lorengar"
+      year: "2016-2021"
+      degree: "Educacion Secundaria Obligatoria"
+
+    - item: "IES Pilar Lorengar"
+      year: "2021-2023"
+      degree: "Bachillerato de Ciencias de la salud"
+
+    - item: "CPIFP Los Enlaces"
+      year: "2023-ahora"
+      degree: "Tecnico Superior en Desarrollo de Aplicaciones Web"
+
+# experience
+experience:
+  enable: true
+  title: "Experiencia"
+  description: >
+
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/adrianmoreno/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+  button3:
+    icon: "icon-arrow-right"
+    btnText: "View All"
+    URL: "/files_stored"
+
+# Client & Work
+client_and_work:
+  title: "Clients & Works"
+  enable: false
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testimonios"
+  items:
+    - name: "Jose Antonio"
+      position: "Sociedad Cooperativa Gallicum zuera"
+      content: "Un empleado ejemplar, 100% recomendable. Me ayudo con los temas informaticos a demas de realizar labores de su puesto."
+      image:
+        x: "images/testimonials/daniel-jordan.jpg"
+        _2x: "images/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "David Provenza"
+      position: "Frutas Provenza"
+      content: "Magnifico empleado, siempre puntual y serio con el trabajo."
+      image:
+        x: "images/testimonials/jonathan-peters.jpg"
+        _2x: "images/testimonials/jonathan-peters@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+555 (11) 123 44 55"
+  email:
+    title: "Email"
+    email: '<a href="mailto:mail@example.com">mail@example.com</a>'
+  address:
+    title: "Address"
+    address: "Exact street/neighborhood (you can omit this)<br />Postcode, City"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: true
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
