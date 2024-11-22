@@ -2,7 +2,7 @@
     <div class="carousel-inner">
         {{ $images := readDir "static/images/carrusel" }} {{ range $index, $image := $images }}
         <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
-            <img src="/images/carrusel/{{ $image.Name }}" class="d-block w-100" alt="Imagen {{ $index }}" />
+            <img src="../images/carrusel/{{ $image.Name }}" class="d-block w-100" alt="Imagen {{ $index }}" />
         </div>
         {{ end }}
     </div>
