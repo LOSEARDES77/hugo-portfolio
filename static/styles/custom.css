@@ -1,0 +1,15 @@
+img {
+    width: 500px;
+}
+
+.section ul li {
+    color: #a6a6a6;
+    list-style-type: disc;
+}
+.section ul li::before {
+    background-color: #a6a6a6;
+    content: "";
+}
+h3 a {
+    color: #fff;
+}

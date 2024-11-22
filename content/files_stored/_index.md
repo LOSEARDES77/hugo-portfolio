@@ -6,22 +6,27 @@ img: "../images/FilesStored.png"
 imgAlt: "Files Stored"
 ---
 
-## Description
+![Files Stored](../images/FilesStored.png)
 
-A brief description of your Files Stored project.
+## Descripcion
 
-## Technologies Used
+Un clon de Google Drive que permite a los usuarios almacenar y compartir archivos de manera segura.
 
-- React
-- Next.js
-- TypeScript
-- Tailwind CSS
-- Prisma
-- MongoDB
-- NextAuth.js
+## Technolgias Utilizadas
 
-## Demo and Source Code
+-   React
+-   Next.js
+-   TypeScript
+-   Tailwind CSS
+-   Firebase
+-   NextAuth.js
 
-[Demo](https://drive.loseardes77.com/) | [Source Code](https://github.com/LOSEARDES77/Files-Stored)
+### Caracteristicas
 
-... Add more sections as needed.
+-   Autenticación de usuarios con NextAuth.js y Firebase.
+-   Almacenamiento de archivos en Firebase Storage.
+-   Listado y visualización de archivos almacenados.
+-   Compartir archivos con otros usuarios.
+-   Interfaz de usuario intuitiva y atractiva con Tailwind CSS.
+
+[Demo en vivo](https://drive.loseardes77.com/) | [Código Fuente](https://github.com/LOSEARDES77/Files-Stored)

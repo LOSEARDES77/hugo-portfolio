@@ -26,40 +26,49 @@ URL = "js/library/fontfaceobserver.js"
 [menu]
 
 [[menu.header]]
-name = "About"
+name = "Sobre mi"
 URL = "#about"
 weight = 2
 
 [[menu.header]]
-name = "Portfolio"
-URL = "#portfolio"
+name = "Proyectos"
+URL = "/proyectos"
 weight = 3
 
+[[menu.header]]
+name = "Carrusel"
+URL = "/carrusel"
+weight = 4
 
 [[menu.header]]
-name = "Blog"
-URL = "/blog"
+name = "Television"
+URL = "/tv"
 weight = 5
 
 [[menu.header]]
-name = "Contact"
+name = "Contacto"
 URL = "#contact"
 weight = 6
 
 [[menu.footer]]
-name = "About"
+name = "Sobre mi"
 URL = "#about"
 weight = 2
 
 [[menu.footer]]
-name = "Portfolio"
-URL = "#portfolio"
+name = "Proyectos"
+URL = "/proyectos"
 weight = 3
 
 [[menu.footer]]
-name = "Contact"
+name = "Television"
+URL = "/tv"
+weight = 5
+
+[[menu.footer]]
+name = "Contacto"
 URL = "#contact"
-weight = 4
+weight = 6
 
 
 [params]

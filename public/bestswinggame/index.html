@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8"/>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 <meta name="theme-color" content="#478079" >
 
 
 
-<title>Demo site for Adritian - a high performance hugo theme by Adrián Moreno</title>
-<meta name="description" content="This hugo theme (Adritian) is based on Boostrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications.">
+<title>Portafolio personal de Victor Galan</title>
+<meta name="description" content="Bienvenido a mi portafolio personal. Aquí encontrarás una muestra de mis proyectos, habilidades y experiencia.">
 
 
 <style data-generator="critical-css">
@@ -63,15 +62,15 @@
 
 <script src='http://localhost:1313/js/library/lozad.min.js'></script>
 
+ 
 
+        <title>Best Java Swing Game</title>
+        
+        <link rel="stylesheet" href="../styles/custom.css" />
+    </head>
 
-    
-
-    <title>Best Java Swing Game</title>
-</head>
-
-<body>
-    
+    <body>
+        
 
 <header class="header fixed-top rad-animation-group" id="header">
   <div class="container rad-fade-in">
@@ -100,25 +99,31 @@
             
             <li class="nav-item">
               <a data-scroll class="nav-link" href="/#about"
-                >ABOUT</a
+                >SOBRE MI</a
               >
             </li>
             
             <li class="nav-item">
-              <a data-scroll class="nav-link" href="/#portfolio"
-                >PORTFOLIO</a
+              <a data-scroll class="nav-link" href="/proyectos"
+                >PROYECTOS</a
               >
             </li>
             
             <li class="nav-item">
-              <a data-scroll class="nav-link" href="/blog"
-                >BLOG</a
+              <a data-scroll class="nav-link" href="/carrusel"
+                >CARRUSEL</a
+              >
+            </li>
+            
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/tv"
+                >TELEVISION</a
               >
             </li>
             
             <li class="nav-item">
               <a data-scroll class="nav-link" href="/#contact"
-                >CONTACT</a
+                >CONTACTO</a
               >
             </li>
             
@@ -135,30 +140,38 @@
             <li class="breadcrum-item"><span><a href="/">Home</a></span></li><li class="breadcrum-item"><span><a href="/bestswinggame">Bestswinggame</a></span></li></ul>
 </section>
 
-    <section class="section">
-
-        <h2 class="title is-2">Best Java Swing Game</h2>
-        <div class="content">
-            <h2 id="description">Description</h2>
-<p>A brief description of your Best Java Swing Game project.</p>
-<h2 id="technologies-used">Technologies Used</h2>
+        <section class="container section">
+            <h2 class="title is-2">Best Java Swing Game</h2>
+            
+            <div class="content"><p><img src="../images/BestJavaSwingGame.png" alt="Best Java Swing Game"></p>
+<h3 id="descripcion">Descripcion</h3>
+<p>Un pequeño juego hecho en Java 2D con Swing, que permite a los usuarios mover un personaje por un mapa y recoger objetos esquivando obstaculos y enemigos.
+hay un modo multijugador aun en progreso la parte de backnd escrita en Rust.</p>
+<h3 id="tecnologias-utilizadas">Tecnologias Utilizadas</h3>
 <ul>
 <li>Java</li>
 <li>Swing</li>
+<li>Input</li>
+<li>Concurrencia</li>
 <li>Rust</li>
 <li>UDP</li>
 <li>Sockets</li>
 </ul>
-<p>&hellip; Add more sections as needed.</p>
+<h3 id="caracteristicas">Caracteristicas</h3>
+<ul>
+<li>Navegación por el laberinto: El jugador puede mover al personaje arriba, abajo, izquierda y derecha para navegar por el laberinto.</li>
+<li>Evasión de obstáculos: El personaje debe evitar colisionar con obstáculos en el laberinto y enemigos.</li>
+<li>Seguimiento de puntuación: La puntuación del jugador aumenta a medida que recolecta monedas.</li>
+<li>Multijugador (en progreso): Funciona con la red utilizando UDP y sockets, permitiendo a varios jugadores jugar al mismo tiempo.</li>
+</ul>
+<p><a href="https://github.com/LOSEARDES77/Best-Java-Swing-Game">Código Fuente</a></p>
+</div>
+            
+        </section>
 
-        </div>
+        <hr />
 
-
-    </section>
-
-    <hr>
-
-    <footer class="footer">
+        <footer class="footer">
   <div class="container">
     <div class="footer__left">
       <div class="footer__copy">
@@ -172,15 +185,19 @@
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="/#about">ABOUT</a>
+          <a class="nav-link" href="/#about">SOBRE MI</a>
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="/#portfolio">PORTFOLIO</a>
+          <a class="nav-link" href="/proyectos">PROYECTOS</a>
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="/#contact">CONTACT</a>
+          <a class="nav-link" href="/tv">TELEVISION</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">CONTACTO</a>
         </li>
         
       </ul>
@@ -190,8 +207,7 @@
     </div>
   </div>
 </footer>
-
-    <script>
+ <script>
   window.addEventListener("load", function() {
     try{
       var observer = window.lozad(".lozad", {
@@ -220,6 +236,5 @@
 
 
 
-</body>
-
+    </body>
 </html>

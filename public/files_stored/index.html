@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8"/>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 <meta name="theme-color" content="#478079" >
 
 
 
-<title>Demo site for Adritian - a high performance hugo theme by Adrián Moreno</title>
-<meta name="description" content="This hugo theme (Adritian) is based on Boostrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications.">
+<title>Portafolio personal de Victor Galan</title>
+<meta name="description" content="Bienvenido a mi portafolio personal. Aquí encontrarás una muestra de mis proyectos, habilidades y experiencia.">
 
 
 <style data-generator="critical-css">
@@ -63,15 +62,15 @@
 
 <script src='http://localhost:1313/js/library/lozad.min.js'></script>
 
+ 
 
+        <title>Files Stored</title>
+        
+        <link rel="stylesheet" href="../styles/custom.css" />
+    </head>
 
-    
-
-    <title>Files Stored</title>
-</head>
-
-<body>
-    
+    <body>
+        
 
 <header class="header fixed-top rad-animation-group" id="header">
   <div class="container rad-fade-in">
@@ -100,25 +99,31 @@
             
             <li class="nav-item">
               <a data-scroll class="nav-link" href="/#about"
-                >ABOUT</a
+                >SOBRE MI</a
               >
             </li>
             
             <li class="nav-item">
-              <a data-scroll class="nav-link" href="/#portfolio"
-                >PORTFOLIO</a
+              <a data-scroll class="nav-link" href="/proyectos"
+                >PROYECTOS</a
               >
             </li>
             
             <li class="nav-item">
-              <a data-scroll class="nav-link" href="/blog"
-                >BLOG</a
+              <a data-scroll class="nav-link" href="/carrusel"
+                >CARRUSEL</a
+              >
+            </li>
+            
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/tv"
+                >TELEVISION</a
               >
             </li>
             
             <li class="nav-item">
               <a data-scroll class="nav-link" href="/#contact"
-                >CONTACT</a
+                >CONTACTO</a
               >
             </li>
             
@@ -135,35 +140,37 @@
             <li class="breadcrum-item"><span><a href="/">Home</a></span></li><li class="breadcrum-item"><span><a href="/files_stored">Files stored</a></span></li></ul>
 </section>
 
-    <section class="section">
-
-        <h2 class="title is-2">Files Stored</h2>
-        <div class="content">
-            <!-- raw HTML omitted -->
-<h2 id="description">Description</h2>
-<p>A brief description of your Files Stored project.</p>
-<h2 id="technologies-used">Technologies Used</h2>
+        <section class="container section">
+            <h2 class="title is-2">Files Stored</h2>
+            
+            <div class="content"><p><img src="../images/FilesStored.png" alt="Files Stored"></p>
+<h2 id="descripcion">Descripcion</h2>
+<p>Un clon de Google Drive que permite a los usuarios almacenar y compartir archivos de manera segura.</p>
+<h2 id="technolgias-utilizadas">Technolgias Utilizadas</h2>
 <ul>
 <li>React</li>
 <li>Next.js</li>
 <li>TypeScript</li>
 <li>Tailwind CSS</li>
-<li>Prisma</li>
-<li>MongoDB</li>
+<li>Firebase</li>
 <li>NextAuth.js</li>
 </ul>
-<h2 id="demo-and-source-code">Demo and Source Code</h2>
-<p><a href="https://drive.loseardes77.com/">Demo</a> | <a href="https://github.com/LOSEARDES77/Files-Stored">Source Code</a></p>
-<p>&hellip; Add more sections as needed.</p>
+<h3 id="caracteristicas">Caracteristicas</h3>
+<ul>
+<li>Autenticación de usuarios con NextAuth.js y Firebase.</li>
+<li>Almacenamiento de archivos en Firebase Storage.</li>
+<li>Listado y visualización de archivos almacenados.</li>
+<li>Compartir archivos con otros usuarios.</li>
+<li>Interfaz de usuario intuitiva y atractiva con Tailwind CSS.</li>
+</ul>
+<p><a href="https://drive.loseardes77.com/">Demo en vivo</a> | <a href="https://github.com/LOSEARDES77/Files-Stored">Código Fuente</a></p>
+</div>
+            
+        </section>
 
-        </div>
+        <hr />
 
-
-    </section>
-
-    <hr>
-
-    <footer class="footer">
+        <footer class="footer">
   <div class="container">
     <div class="footer__left">
       <div class="footer__copy">
@@ -177,15 +184,19 @@
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="/#about">ABOUT</a>
+          <a class="nav-link" href="/#about">SOBRE MI</a>
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="/#portfolio">PORTFOLIO</a>
+          <a class="nav-link" href="/proyectos">PROYECTOS</a>
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="/#contact">CONTACT</a>
+          <a class="nav-link" href="/tv">TELEVISION</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">CONTACTO</a>
         </li>
         
       </ul>
@@ -195,8 +206,7 @@
     </div>
   </div>
 </footer>
-
-    <script>
+ <script>
   window.addEventListener("load", function() {
     try{
       var observer = window.lozad(".lozad", {
@@ -225,6 +235,5 @@
 
 
 
-</body>
-
+    </body>
 </html>
