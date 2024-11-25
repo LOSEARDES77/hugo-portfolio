@@ -1,0 +1,23 @@
+<ul>
+<div class="row">
+    {{ range .Site.Data.tv2 }}
+    <div class="col-md-4">
+        <a href="#{{ .name }}" class="text-decoration-none">
+            <h2>
+                <li class="list-group-item">{{ .name }}</li>
+            </h2>
+        </a>
+    </div>
+    {{ end }}
+    {{ range .Site.Data.tv2 }}
+    <h2 id="{{ .name }}">{{ .name }}</h2>
+    <hr />
+    <div class="d-flex flex-wrap">
+        {{ range .channels }}
+        <a href="{{ .web }}" class="">
+            <img src="{{ .logo }}" alt="{{ .name }}" class="img-fluid" style="max-width: 128px" />
+        </a>
+        {{ end }}
+    </div>
+    {{ end }}
+</ul>
