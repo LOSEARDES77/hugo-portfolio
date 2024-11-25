@@ -1,6 +1,6 @@
 <ul>
 <div class="row">
-    {{ range .Site.Data.tv2 }}
+    {{ range .Site.Data.tv }}
     <div class="col-md-4">
         <a href="#{{ .name }}" class="text-decoration-none">
             <h2>
@@ -14,8 +14,8 @@
     <hr />
     <div class="d-flex flex-wrap">
         {{ range .channels }}
-        <a href="{{ .web }}" class="">
-            <img src="{{ .logo }}" alt="{{ .name }}" class="img-fluid" style="max-width: 128px" />
+        <a href="{{ .web }}" class="m-2" style="width: 128px">
+            <img src="{{ .logo }}" alt="{{ .name }}" class="img-fluid" style="width: 128px" />
         </a>
         {{ end }}
     </div>
