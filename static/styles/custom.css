@@ -2,14 +2,56 @@ img {
     width: 500px;
 }
 
-.section ul li {
+.section ul li,
+.section ol li {
     color: #a6a6a6;
     list-style-type: disc;
 }
-.section ul li::before {
+.section ul li::before,
+.section ol li::before {
     background-color: #a6a6a6;
     content: "";
 }
 h3 a {
     color: #fff;
+}
+
+pre {
+    padding: 15px;
+}
+
+pre code {
+    color: #a6a6a6;
+    font-family: monospace;
+}
+
+hr {
+    border-color: #a6a6a6;
+}
+
+table,
+th,
+td {
+    border: 1px solid #fff;
+}
+table {
+    border-collapse: collapse;
+}
+
+p img {
+    width: 128px;
+}
+
+blockquote {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-left: 5px solid #a6a6a6;
+}
+
+blockquote p {
+    margin-left: 10px;
+}
+
+strong {
+    font-weight: bold;
 }
